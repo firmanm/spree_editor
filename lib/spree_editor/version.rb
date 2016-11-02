@@ -8,10 +8,10 @@ module SpreeEditor
   end
 
   module VERSION
-    MAJOR = 2
+    MAJOR = 3
     MINOR = 2
-    TINY  = 1
-    PRE   = nil
+    TINY  = 0
+    PRE   = 'alpha'.freeze
 
     STRING = [MAJOR, MINOR, TINY, PRE].compact.join('.')
   end
